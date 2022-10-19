@@ -132,11 +132,11 @@ void ODA::showHelp() {
     u8g2.drawStr(2, 0, "HELP");
     u8g2.setFont(u8g2_font_nokiafc22_tf);
     u8g2.drawStr(54, 0, "Lighthouse App");
-    u8g2.drawStr(64, 8, "2022 - V");
-    u8g2.drawStr(100, 8, GIT_VERSION);
+    u8g2.drawStr(61, 8, "2022");
+    u8g2.drawStr(88, 8, GIT_VERSION);
     u8g2.setFont(u8g2_font_8x13_t_symbols);
     char c[2] = {169, 0};  // Copyright Symbol
-    u8g2.drawStr(54, 7, c);
+    u8g2.drawStr(53, 7, c);
 
     u8g2.setFont(u8g2_font_NokiaSmallPlain_te);
     for (int i = 0; i < ELEMENTS(s); i++) {

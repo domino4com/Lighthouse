@@ -91,6 +91,7 @@ void loop() {
     infinity = 217; // A solid square to print over the Infinity symbol
     if (millis() > RUNTIME*1000) {
       sleepClick();
+      powerOff();
     }
   }
   oda.showInfinity(infinity);
