@@ -465,7 +465,7 @@
                 "RUNTIME=120",
                 "LUXLEVEL=100",
                 "LONGPRESS=2",
-                "GIT_VERSION=\"dc7b428\"",
+                "GIT_VERSION=\"d5750f9\"",
                 "D4_CORE_CWB",
                 "ARDUINO_USB_MODE=1",
                 "ARDUINO_USB_CDC_ON_BOOT=1",
